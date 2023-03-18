@@ -1,0 +1,369 @@
+/*móvil*/
+
+body {
+    font-size: 16px;
+}
+
+img {
+    display: inline;
+    width: 16em;
+    height: auto;
+}
+
+.item1 {
+    grid-area: header;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.item2 {
+    grid-area: menu;
+    display: grid;
+    grid-template-areas:
+        'item item item item';
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.navItem {
+    display: inline;
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item5 {
+    grid-area: footer;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Estilos CSS para la sección de servicios */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.introduction {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos CSS para los servicios */
+.service {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 0.63em rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
+    margin-bottom: 0.63em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header'
+        'menu main main main'
+        'menu main main main'
+        'menu main main main'
+        'footer footer footer footer';
+    gap: 0.63em;
+    background-color: aquamarine;
+}
+
+li {
+    list-style-type: none;
+}
+
+#Ibermatica {
+    float: right;
+    width: 10em;
+}
+
+#Especializacion {
+    width: 100em;
+}
+
+#IbermaticaImagen {
+    padding-top: 4em;
+}
+
+#Esquema {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    width: 80em;
+}
+
+/*escritorio*/
+@media only screen and (min-width:781px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    img {
+        display: inline;
+        width: 31em;
+        height: auto;
+    }
+
+    .item1 {
+        grid-area: header;
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .item2 {
+        grid-area: menu;
+        display: grid;
+        grid-template-areas:
+            'item item item item';
+        grid-gap: 1em;
+        padding: 1em;
+    }
+
+    .navItem {
+        display: inline;
+
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .item3 {
+        grid-area: main;
+    }
+
+    .item4 {
+        display: inline;
+        grid-area: aside;
+    }
+
+    .item5 {
+        grid-area: footer;
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .item6 {
+        display: inline;
+        grid-area: right;
+    }
+
+    /* Estilos CSS para la sección de servicios */
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        padding: 1em;
+    }
+
+    .introduction {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilos CSS para los servicios */
+    .service {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 2em;
+        margin-bottom: 0.63em;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header header header'
+            'menu menu menu menu'
+            'main main main main'
+            'main main main main'
+            'footer footer footer footer';
+        gap: 0.63em;
+        background-color: aquamarine;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    #Ibermatica {
+        float: right;
+        width: 10em;
+    }
+
+    #Especializacion {
+        width: 100em;
+    }
+
+    #IbermaticaImagen {
+        padding-top: 4em;
+    }
+
+    #Esquema {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        width: 80em;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width:461px) and (max-width:780px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    img {
+        display: inline;
+        width: 16em;
+        height: auto;
+    }
+
+    .item1 {
+        grid-area: header;
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .item2 {
+        grid-area: menu;
+        display: grid;
+        grid-template-areas:
+            'item item item item';
+        grid-gap: 1em;
+        padding: 1em;
+    }
+
+    .navItem {
+        display: inline;
+
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .item3 {
+        grid-area: main;
+    }
+
+    .item4 {
+        display: inline;
+        grid-area: aside;
+    }
+
+    .item5 {
+        grid-area: footer;
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .item6 {
+        display: none;
+    }
+
+    /* Estilos CSS para la sección de servicios */
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        padding: 1em;
+    }
+
+    .introduction {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 0 0 0.63em rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilos CSS para los servicios */
+    .service {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 0 0 0.63em rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 2em;
+        margin-bottom: 0.63em;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'menu header header header'
+            'menu main main main'
+            'menu main main main'
+            'menu main main main'
+            'footer footer footer footer';
+        gap: 0.63em;
+        background-color: aquamarine;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    #Ibermatica {
+        float: right;
+        width: 10em;
+    }
+
+    #Especializacion {
+        width: 100em;
+    }
+
+    #IbermaticaImagen {
+        padding-top: 4em;
+    }
+
+    #Esquema {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        width: 80em;
+    }
+}
